@@ -2,11 +2,11 @@
   "name": "chat",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "ng": "pnpm exec ng",
+    "start": "pnpm exec ng serve",
+    "build": "pnpm exec ng build",
+    "watch": "pnpm exec ng build --watch --configuration development",
+    "test": "pnpm exec ng test"
   },
   "private": true,
   "dependencies": {
